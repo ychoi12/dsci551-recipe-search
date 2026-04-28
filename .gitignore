@@ -1,0 +1,19 @@
+# Raw + curated data — never commit these
+out/
+*.csv
+*.tsv
+!sql/**/*.sql
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Spark
+metastore_db/
+spark-warehouse/
+derby.log
+
+# Misc
+.DS_Store
+*.log
